@@ -59,9 +59,9 @@ Each output opens in a live preview of its platform, where you can edit inline, 
 
 The 24-second film from the postready.org landing page: paste a source, choose language, tone and length, then preview and edit every platform.
 
-<a href="assets/film/postready-film-en.mp4"><img src="assets/film/postready-film-poster.png" alt="PostReady product film: the Studio with the LinkedIn preview open and the caption Preview each platform before you post. Click to play the video." width="100%"></a>
+<img src="assets/film/postready-film.webp" alt="PostReady product film: a source is pasted into the Studio, language, tone and length are chosen, then each platform preview opens and is edited." width="100%">
 
-<p align="center"><a href="assets/film/postready-film-en.mp4"><b>▶ Watch the film</b></a> · 1920×1080 · 24 s · no sound</p>
+<p align="center">24 s, loops, no sound · <a href="https://github.com/postready/PostReady/raw/main/assets/film/postready-film-en.mp4">Download the 1080p MP4</a></p>
 
 ## Free tools
 

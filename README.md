@@ -39,7 +39,7 @@ The generation engine behind the PostReady studio is closed source and is **not*
 
 | Open, in this repository | Closed, runs on postready.org |
 | --- | --- |
-| Screenshots and product tour | The studio and its generation engine |
+| Screenshots and the product film | The studio and its generation engine |
 | [Design language](DESIGN.md) and [CSS tokens](design/tokens.css) | Prompts, model routing and quality checks |
 | [Browser-only writing tools](src/writing-tools.ts) with tests | AI tools, accounts, credits and billing |
 
@@ -55,6 +55,14 @@ Paste one source (an idea, an article, a transcript or a rough draft) and get fi
 
 Each output opens in a live preview of its platform, where you can edit inline, check the counts and copy it. The studio works in English, Turkish, Spanish, German and French. New accounts start with 10 free credits, and manual editing is always free.
 
+## See it in motion
+
+The 24-second film from the postready.org landing page: paste a source, choose language, tone and length, then preview and edit every platform.
+
+<a href="assets/film/postready-film-en.mp4"><img src="assets/film/postready-film-poster.png" alt="PostReady product film: the Studio with the LinkedIn preview open and the caption Preview each platform before you post. Click to play the video." width="100%"></a>
+
+<p align="center"><a href="assets/film/postready-film-en.mp4"><b>▶ Watch the film</b></a> · 1920×1080 · 24 s · no sound</p>
+
 ## Free tools
 
 Seven tools, no account needed. Three run entirely in your browser with no daily limit; the AI tools and preview cards share a small free daily allowance.
@@ -69,14 +77,12 @@ Open source in this repository. Nothing you type leaves your device.
 | [LinkedIn text formatter](https://www.postready.org/en/tools/linkedin-text-formatter) | Unicode bold, italic and bold italic for LinkedIn posts, with an accessibility note |
 | [Subject line checker](https://www.postready.org/en/tools/subject-line-checker) | Length, ALL CAPS, punctuation and emoji checks for a newsletter subject and preview text, with desktop and mobile inbox previews |
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/screens/character-counter-dark.png"><img src="assets/screens/character-counter-light.png" alt="Character counter: per-platform limits, with the LinkedIn hook 32 characters over" width="100%"></picture>
+
 <table>
   <tr>
-    <td width="50%"><img src="assets/screens/character-counter-dark.png" alt="Character counter showing per-platform limits, with the LinkedIn hook 32 characters over"></td>
-    <td width="50%"><img src="assets/screens/subject-line-checker-dark.png" alt="Subject line checker with desktop and mobile inbox previews and pass or warn checks"></td>
-  </tr>
-  <tr>
-    <td><img src="assets/screens/linkedin-text-formatter-light.png" alt="LinkedIn text formatter in the light theme"></td>
-    <td><img src="assets/screens/character-counter-light.png" alt="Character counter in the light theme"></td>
+    <td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/screens/subject-line-checker-dark.png"><img src="assets/screens/subject-line-checker-light.png" alt="Subject line checker with desktop and mobile inbox previews and pass or warn checks"></picture></td>
+    <td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/screens/linkedin-text-formatter-dark.png"><img src="assets/screens/linkedin-text-formatter-light.png" alt="LinkedIn text formatter turning a list into Unicode bold"></picture></td>
   </tr>
 </table>
 
@@ -93,8 +99,8 @@ Open source in this repository. Nothing you type leaves your device.
 
 <table>
   <tr>
-    <td width="50%"><img src="assets/screens/tools-light.png" alt="Free tools index page"></td>
-    <td width="50%"><img src="assets/screens/social-preview-dark.png" alt="Social preview card generator"></td>
+    <td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/screens/tools-dark.png"><img src="assets/screens/tools-light.png" alt="Free tools index page"></picture></td>
+    <td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/screens/social-preview-dark.png"><img src="assets/screens/social-preview-light.png" alt="Social preview card generator"></picture></td>
   </tr>
 </table>
 
@@ -102,16 +108,14 @@ Open source in this repository. Nothing you type leaves your device.
 
 PostReady is dark-first and editorial: high contrast, Inter for reading, JetBrains Mono for counts and labels, 1px hairline borders instead of heavy shadows, and interactions that finish within 200ms. Colour carries meaning only: emerald for success and copy feedback, red for a limit you have gone over, and one platform tint per output.
 
-Read the full system in [DESIGN.md](DESIGN.md), or use the [CSS tokens](design/tokens.css) directly.
+Read the full system in [DESIGN.md](DESIGN.md), or use the [CSS tokens](design/tokens.css) directly. Every screenshot on this page follows your GitHub theme, so switch between light and dark to see both.
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/screens/pricing-dark.png"><img src="assets/screens/pricing-light.png" alt="Pricing page" width="100%"></picture>
 
 <table>
   <tr>
-    <td width="50%"><img src="assets/screens/landing-light.png" alt="Landing page, light theme"></td>
-    <td width="50%"><img src="assets/screens/pricing-dark.png" alt="Pricing page, dark theme"></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="assets/screens/landing-mobile.png" alt="Landing page on a phone" width="60%"></td>
-    <td align="center"><img src="assets/screens/character-counter-mobile.png" alt="Character counter on a phone" width="60%"></td>
+    <td width="50%" align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/screens/landing-mobile-dark.png"><img src="assets/screens/landing-mobile-light.png" alt="Landing page on a phone" width="70%"></picture></td>
+    <td width="50%" align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/screens/character-counter-mobile-dark.png"><img src="assets/screens/character-counter-mobile-light.png" alt="Character counter on a phone" width="70%"></picture></td>
   </tr>
 </table>
 

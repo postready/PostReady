@@ -1,0 +1,13 @@
+{
+  "name": "postready",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PostReady: free, browser-only writing tools for social posts, plus the PostReady design language.",
+  "homepage": "https://www.postready.org/en",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "test": "node --test \"src/*.test.ts\""
+  }
+}

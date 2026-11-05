@@ -1,0 +1,14 @@
+PostReady
+Copyright (c) 2026 PostReady. All rights reserved for the items below.
+
+The MIT License in LICENSE covers the source code in src/ and design/ only.
+
+It does not cover, and grants no rights to:
+  - the PostReady name and logo (assets/logo.svg)
+  - the screenshots in assets/screens/
+  - the copy and content of postready.org
+  - the PostReady studio and its generation engine, which are closed source
+    and not included in this repository
+
+Please do not use the PostReady name or logo in a way that suggests your
+project is PostReady or is endorsed by it.
